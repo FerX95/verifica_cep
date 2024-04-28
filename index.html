@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Verifica CEP</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/estilo.css">
+        <script src="js/action.js" defer></script>
+    </head>
+
+    <body>
+        <div class="main">
+            <div class="title">
+                <h2>Verifica CEP</h2>
+            </div>
+            
+            <div class="form">
+                <label>CEP</label>
+                <input type="text" id="i_cep" maxlength="8">
+                <input type="submit" value="Buscar" onclick="pesquisacep()" id="btt">
+            </div>
+
+            <div id="resp">
+                <label>Rua:</label>
+                <div id="txt_rua"></div>
+                
+                <label>Bairro:</label>
+                <div id="txt_bairro"></div>
+                
+                <label>Cidade:</label>
+                <div id="txt_cidade"></div>
+                
+                <label>Estado:</label>
+                <div id="txt_estado"></div>
+            </div>
+
+            <div class="footer">
+                <p>&copy; Fernando J. M. Silva - 2024</p>
+            </div>
+        </div>
+    </body>
+
+</html>
